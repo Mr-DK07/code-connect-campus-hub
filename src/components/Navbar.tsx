@@ -4,6 +4,7 @@ import { Menu, X, Code, Sun, Moon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useTheme } from "next-themes";
 
+
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -36,7 +37,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <img
-            src="\public\logo.jpg"
+            src="/public/logo.jpg"
             alt="PTSC"
             style={{ width: "50px", height: "40px" }}
           />
