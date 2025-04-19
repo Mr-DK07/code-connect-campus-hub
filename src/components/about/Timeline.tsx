@@ -5,7 +5,7 @@ const timelineEvents = [
   {
     year: "2018",
     title: "Club Foundation",
-    description: "CodeCraft was founded by a group of passionate CS students with the vision to create a coding community."
+    description: "PTSC was founded by a group of passionate CS students with the vision to create a coding community."
   },
   {
     year: "2019",
@@ -46,7 +46,7 @@ const Timeline = () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Journey</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            From humble beginnings to a thriving community - explore the milestones that have shaped CodeCraft.
+            From humble beginnings to a thriving community - explore the milestones that have shaped PTSC.
           </p>
         </div>
         

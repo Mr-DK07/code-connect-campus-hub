@@ -11,9 +11,9 @@ const AboutIntro = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <h1 className="text-3xl md:text-4xl font-bold mb-6">About CodeCraft</h1>
+            <h1 className="text-3xl md:text-4xl font-bold mb-6">About PTSC</h1>
             <p className="text-lg text-muted-foreground mb-4">
-              Founded in 2018, CodeCraft is the premier programming club at University College, dedicated to fostering a community of passionate coders, innovators, and problem solvers.
+              Founded in 2018, PTSC is the premier programming club at University College, dedicated to fostering a community of passionate coders, innovators, and problem solvers.
             </p>
             <p className="text-lg text-muted-foreground mb-6">
               Our mission is to provide a platform for students to enhance their programming skills, collaborate on projects, and prepare for tech industry challenges through hands-on learning experiences.

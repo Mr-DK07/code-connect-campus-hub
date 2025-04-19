@@ -86,8 +86,8 @@ const ContactForm = () => {
                 </div>
                 <div className="ml-4">
                   <h4 className="text-lg font-medium">Email</h4>
-                  <p className="text-muted-foreground">codecraft@university.edu</p>
-                  <p className="text-muted-foreground">contact@codecraftclub.org</p>
+                  <p className="text-muted-foreground">ptsc@university.edu</p>
+                  <p className="text-muted-foreground">contact@PTSCclub.org</p>
                 </div>
               </div>
               

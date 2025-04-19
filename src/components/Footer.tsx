@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <Link to="/" className="flex items-center gap-2">
               <Code className="h-6 w-6 text-primary" />
-              <span className="font-bold text-xl">CodeCraft</span>
+              <span className="font-bold text-xl">PTSC</span>
             </Link>
             <p className="mt-4 text-muted-foreground max-w-md">
               Empowering students through code, innovation, and collaboration. Join our community to enhance your programming skills and build amazing projects together.
@@ -42,13 +42,13 @@ const Footer = () => {
             <ul className="space-y-2 text-muted-foreground">
               <li>Computer Science Department</li>
               <li>University Campus</li>
-              <li>Email: codecraft@university.edu</li>
+              <li>Email: ptsc@university.edu</li>
               <li>Phone: (123) 456-7890</li>
             </ul>
           </div>
         </div>
         <div className="border-t border-border mt-12 pt-8 text-center text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} CodeCraft Programming Club. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} PTSC Programming Club KNIT. All rights reserved.</p>
         </div>
       </div>
     </footer>
