@@ -37,9 +37,9 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <img
-            src="/logo.jpg"
-            alt="PTSC"
-            style={{ width: "50px", height: "40px" }}
+            src="/image.png"
+            alt="ptsc"
+            style={{ width: "70px", height: "60px" }}
           />
            {/* <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-4">
               <span className="text-primary">&lt;</span> PTSC{" "}
