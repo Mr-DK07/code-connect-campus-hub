@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="absolute inset-0 opacity-[0.03] overflow-hidden text-[8px] text-foreground/50 font-mono leading-tight">
         {Array.from({ length: 30 }).map((_, i) => (
           <div key={i} className="whitespace-nowrap">
-            {`function init() { const programmingClub = new Club('CodeCraft'); programmingClub.init(); const members = await getMembers(); members.forEach(member => { member.enhanceSkills(); member.createProjects(); member.collaborateWith(team); }); }`
+            {`function init() { const programmingClub = new Club('PTSC'); programmingClub.init(); const members = await getMembers(); members.forEach(member => { member.enhanceSkills(); member.createProjects(); member.collaborateWith(team); }); }`
               .repeat(3)}
           </div>
         ))}
@@ -24,7 +24,7 @@ const Hero = () => {
             transition={{ duration: 0.5 }}
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-4">
-              <span className="text-primary">&lt;</span> CodeCraft <span className="text-primary">/&gt;</span>
+              <span className="text-primary">&lt;</span> PTSC <span className="text-primary">/&gt;</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-2">Programming Club</p>
             <p className="text-lg mb-8 max-w-xl mx-auto md:mx-0">
@@ -52,9 +52,9 @@ const Hero = () => {
               <pre className="text-xs md:text-sm overflow-x-auto text-code-foreground font-mono">
                 <code>{`import { ProgrammingClub } from 'university';
 
-class CodeCraft extends ProgrammingClub {
+class PTSC extends ProgrammingClub {
   constructor() {
-    super('CodeCraft');
+    super('PTSC');
     this.vision = 'Empower students through code';
     this.skills = [
       'Web Development', 
@@ -73,7 +73,7 @@ class CodeCraft extends ProgrammingClub {
   }
 }
 
-const club = new CodeCraft();
+const club = new PTSC();
 club.initialize();`}</code>
               </pre>
             </div>

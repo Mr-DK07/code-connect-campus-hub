@@ -17,18 +17,18 @@ interface TeamMember {
 const coreTeam: TeamMember[] = [
   {
     id: 1,
-    name: "Dr. Jane Smith",
-    role: "Faculty Advisor",
-    image: "https://i.pravatar.cc/300?img=5",
+    name: "Himanshu Dubey",
+    role: "Joint Secretary",
+    image: "https://media.licdn.com/dms/image/v2/D5603AQElFyIV6oW1qg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1729429409479?e=1750291200&v=beta&t=Lq-Y305B3KAkfj2SLW1z_iytBtskSIVwABTwh-fCPuY",
     description: "Associate Professor in Computer Science with expertise in AI and Machine Learning. Guides the club's academic direction and industry connections.",
     linkedin: "https://linkedin.com",
     email: "jane.smith@university.edu"
   },
   {
     id: 2,
-    name: "Michael Chen",
-    role: "President",
-    image: "https://i.pravatar.cc/300?img=3",
+    name: "Aditya Kumar Singh",
+    role: "Comptetive Programming Head",
+    image: "https://static.vecteezy.com/system/resources/previews/024/983/914/non_2x/simple-user-default-icon-free-png.png",
     description: "4th year Computer Science student passionate about full-stack development and open source. Leads club initiatives and coordinates with faculty.",
     github: "https://github.com",
     linkedin: "https://linkedin.com",
@@ -36,9 +36,9 @@ const coreTeam: TeamMember[] = [
   },
   {
     id: 3,
-    name: "Priya Sharma",
-    role: "Vice President",
-    image: "https://i.pravatar.cc/300?img=22",
+    name: "Abhishek Yadav",
+    role: "Comptetive Programming Head",
+    image: "https://static.vecteezy.com/system/resources/previews/024/983/914/non_2x/simple-user-default-icon-free-png.png",
     description: "3rd year Software Engineering student specializing in mobile development. Organizes workshops and manages club operations.",
     github: "https://github.com",
     linkedin: "https://linkedin.com",
@@ -46,54 +46,15 @@ const coreTeam: TeamMember[] = [
   },
   {
     id: 4,
-    name: "David Wilson",
-    role: "Technical Lead",
-    image: "https://i.pravatar.cc/300?img=11",
+    name: "Vivek Tripathi",
+    role: "Web Dev Head",
+    image: "https://static.vecteezy.com/system/resources/previews/024/983/914/non_2x/simple-user-default-icon-free-png.png",
     description: "4th year Computer Engineering student with expertise in backend development and system architecture. Oversees club projects and technical workshops.",
     github: "https://github.com",
     linkedin: "https://linkedin.com",
     email: "david.wilson@university.edu"
   },
-  {
-    id: 5,
-    name: "Sarah Johnson",
-    role: "Events Coordinator",
-    image: "https://i.pravatar.cc/300?img=9",
-    description: "3rd year Information Technology student focused on UI/UX design. Plans and coordinates club events, hackathons, and guest lectures.",
-    github: "https://github.com",
-    linkedin: "https://linkedin.com",
-    email: "sarah.johnson@university.edu"
-  },
-  {
-    id: 6,
-    name: "Raj Patel",
-    role: "Outreach Coordinator",
-    image: "https://i.pravatar.cc/300?img=8",
-    description: "2nd year Computer Science student interested in cybersecurity. Manages partnerships with other clubs and external organizations.",
-    github: "https://github.com",
-    linkedin: "https://linkedin.com",
-    email: "raj.patel@university.edu"
-  },
-  {
-    id: 7,
-    name: "Emily Zhang",
-    role: "Content Manager",
-    image: "https://i.pravatar.cc/300?img=31",
-    description: "3rd year Data Science student specializing in data visualization. Creates and manages educational content and resources for members.",
-    github: "https://github.com",
-    linkedin: "https://linkedin.com",
-    email: "emily.zhang@university.edu"
-  },
-  {
-    id: 8,
-    name: "James Rodriguez",
-    role: "Treasurer",
-    image: "https://i.pravatar.cc/300?img=12",
-    description: "2nd year Computer Science student with a minor in Business. Manages club finances, sponsorships, and resource allocation.",
-    github: "https://github.com",
-    linkedin: "https://linkedin.com",
-    email: "james.rodriguez@university.edu"
-  }
+ 
 ];
 
 const TeamSection = () => {
