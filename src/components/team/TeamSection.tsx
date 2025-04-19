@@ -19,7 +19,7 @@ const coreTeam: TeamMember[] = [
     id: 1,
     name: "Himanshu Dubey",
     role: "Joint Secretary",
-    image: "https://media.licdn.com/dms/image/v2/D5603AQElFyIV6oW1qg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1729429409479?e=1750291200&v=beta&t=Lq-Y305B3KAkfj2SLW1z_iytBtskSIVwABTwh-fCPuY",
+    image: "https://static.vecteezy.com/system/resources/previews/024/983/914/non_2x/simple-user-default-icon-free-png.png",
     description: "Associate Professor in Computer Science with expertise in AI and Machine Learning. Guides the club's academic direction and industry connections.",
     linkedin: "https://linkedin.com",
     email: "jane.smith@university.edu"
