@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
@@ -10,12 +9,13 @@ const Hero = () => {
       <div className="absolute inset-0 opacity-[0.03] overflow-hidden text-[8px] text-foreground/50 font-mono leading-tight">
         {Array.from({ length: 30 }).map((_, i) => (
           <div key={i} className="whitespace-nowrap">
-            {`function init() { const programmingClub = new Club('PTSC'); programmingClub.init(); const members = await getMembers(); members.forEach(member => { member.enhanceSkills(); member.createProjects(); member.collaborateWith(team); }); }`
-              .repeat(3)}
+            {`function init() { const programmingClub = new Club('PTSC'); programmingClub.init(); const members = await getMembers(); members.forEach(member => { member.enhanceSkills(); member.createProjects(); member.collaborateWith(team); }); }`.repeat(
+              3
+            )}
           </div>
         ))}
       </div>
-      
+
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center">
         <div className="text-center md:text-left md:w-1/2 md:pr-8">
           <motion.div
@@ -24,11 +24,16 @@ const Hero = () => {
             transition={{ duration: 0.5 }}
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-4">
-              <span className="text-primary">&lt;</span> PTSC <span className="text-primary">/&gt;</span>
+              <span className="text-primary">&lt;</span> PTSC{" "}
+              <span className="text-primary">/&gt;</span>
             </h1>
-            <p className="text-xl md:text-2xl text-muted-foreground mb-2">Programming Club</p>
+            <p className="text-xl md:text-2xl text-muted-foreground mb-2">
+              Programming Club
+            </p>
             <p className="text-lg mb-8 max-w-xl mx-auto md:mx-0">
-              Where coding meets creativity and innovation. Join us to enhance your programming skills, collaborate on exciting projects, and connect with like-minded tech enthusiasts.
+              Where coding meets creativity and innovation. Join us to enhance
+              your programming skills, collaborate on exciting projects, and
+              connect with like-minded tech enthusiasts.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <Button asChild size="lg" className="text-base">
@@ -40,8 +45,8 @@ const Hero = () => {
             </div>
           </motion.div>
         </div>
-        
-        <motion.div 
+
+        <motion.div
           className="md:w-1/2 mt-12 md:mt-0"
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
