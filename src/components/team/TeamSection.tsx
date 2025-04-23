@@ -21,6 +21,7 @@ const coreTeam: TeamMember[] = [
     role: "Joint Secretary",
     image: "https://static.vecteezy.com/system/resources/previews/024/983/914/non_2x/simple-user-default-icon-free-png.png",
     description: "Associate Professor in Computer Science with expertise in AI and Machine Learning. Guides the club's academic direction and industry connections.",
+    github: "https://github.com",
     linkedin: "https://linkedin.com",
     email: "jane.smith@university.edu"
   },
