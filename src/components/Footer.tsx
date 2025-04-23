@@ -16,13 +16,13 @@ const Footer = () => {
               Empowering students through code, innovation, and collaboration. Join our community to enhance your programming skills and build amazing projects together.
             </p>
             <div className="flex space-x-4 mt-6">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary">
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary" title="Visit our GitHub">
                 <Github className="h-5 w-5" />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary">
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary" title="Visit our LinkedIn">
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary">
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary" title="Visit our Instagram">
                 <Instagram className="h-5 w-5" />
               </a>
             </div>
