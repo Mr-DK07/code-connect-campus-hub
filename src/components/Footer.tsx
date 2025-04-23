@@ -42,13 +42,13 @@ const Footer = () => {
             <ul className="space-y-2 text-muted-foreground">
               <li>Computer Science Department</li>
               <li>University Campus</li>
-              <li>Email: ptsc@university.edu</li>
-              <li>Phone: (123) 456-7890</li>
+              <li>Email: knit.ptsc@gmail.com</li>
+              <li>Phone: 123-456-7890</li>
             </ul>
           </div>
         </div>
         <div className="border-t border-border mt-12 pt-8 text-center text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} PTSC Programming Club KNIT. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Programming Club KNIT. All rights reserved.</p>
         </div>
       </div>
     </footer>
