@@ -10,28 +10,28 @@ const testimonials = [
     name: "Alex Johnson",
     role: "Computer Science, 3rd Year",
     image: "https://i.pravatar.cc/100?img=1",
-    quote: "Joining CodeCraft was the best decision I made in college. The workshops and hackathons helped me secure an internship at a top tech company."
+    quote: "Joining PTSC was the best decision I made in college. The workshops and hackathons helped me secure an internship at a top tech company."
   },
   {
     id: 2,
     name: "Sophia Chen",
     role: "Data Science, 4th Year",
     image: "https://i.pravatar.cc/100?img=5",
-    quote: "The machine learning projects we worked on at CodeCraft gave me practical experience that courses alone couldn't provide. The mentoring from seniors was invaluable."
+    quote: "The machine learning projects we worked on at PTSC gave me practical experience that courses alone couldn't provide. The mentoring from seniors was invaluable."
   },
   {
     id: 3,
     name: "Raj Patel",
     role: "Software Engineering, 2nd Year",
     image: "https://i.pravatar.cc/100?img=8",
-    quote: "From a beginner with minimal coding experience to developing full-stack applications, CodeCraft provided the perfect learning environment and community support."
+    quote: "From a beginner with minimal coding experience to developing full-stack applications, PTSC provided the perfect learning environment and community support."
   },
   {
     id: 4,
     name: "Emma Rodriguez",
     role: "UI/UX Design, 3rd Year",
     image: "https://i.pravatar.cc/100?img=9",
-    quote: "As a design student, I was worried about fitting in a programming club, but CodeCraft's inclusive environment helped me blend design with coding skills."
+    quote: "As a design student, I was worried about fitting in a programming club, but PTSC's inclusive environment helped me blend design with coding skills."
   },
 ];
 
@@ -100,6 +100,7 @@ const Testimonials = () => {
               <button
                 key={index}
                 onClick={() => setCurrentIndex(index)}
+                title="Select Testimonial"
                 className={`w-2.5 h-2.5 rounded-full transition-colors ${
                   index === currentIndex ? "bg-primary" : "bg-primary/30"
                 }`}
